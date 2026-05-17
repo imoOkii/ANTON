@@ -24,8 +24,8 @@
 /* ========== 播放键通用样式 ========== */
 .play-btn {
     position: absolute;
-    width: 32px;
-    height: 32px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background: rgba(255, 235, 210, 0.95);
     border: none;
@@ -59,7 +59,7 @@
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 7px 0 7px 12px;
+    border-width: 4px 0 4px 9px;
     border-color: transparent transparent transparent #2A241F;
     margin-left: 3px;
 }
@@ -76,7 +76,7 @@
 /* ========== 三个播放键的位置（基于图片宽度的百分比） ========== */
 /* 请根据您图片中语音条的实际位置微调 top 百分比 */
 .play-btn-1 {
-    left: 5%;
+    left: 4%;
     top: 68%;
 }
 .play-btn-2 {
@@ -84,8 +84,8 @@
     top: 75%;
 }
 .play-btn-3 {
-    left: 5%;
-    top: 82%;
+    left: 3%;
+    top: 80%;
 }
 
 /* 错误提示 */
