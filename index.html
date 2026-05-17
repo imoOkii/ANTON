@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- 容器：相对定位，包裹图片和播放键 -->
+    <容器：相对定位，包裹图片和播放键>
     <div class="image-wrapper">
         <img src="./image/anton.png" alt="ANTON背景" class="bg-img">
-        <!-- 三个播放键，绝对定位在图片上方 -->
+        <三个播放键>
         <button class="play-btn play-btn-1" data-track="0" aria-label="播放 ANTON_wxn">
             <span class="play-icon"></span>
         </button>
@@ -26,7 +26,7 @@
 
     <script>
         (function() {
-            // 音频文件名（实际文件名，可包含特殊字符，使用 encodeURIComponent 编码）
+            // 音频文件名
             const rawNames = ['ANTON_wxn', 'ANTON_yqfs', 'ANTON_hyttl'];
             const audioFiles = rawNames.map(name => `voice/${encodeURIComponent(name)}.mp3`);
 
